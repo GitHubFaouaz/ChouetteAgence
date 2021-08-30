@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "sans-serif";
+  text-align: center;
+}
+
+header {
+  background: #f3976c;
+}
+
+section h1 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+section .div-choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px 0;
+}
+
+section .btn-main {
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  -webkit-box-shadow: 1px 1px 10px #202020;
+          box-shadow: 1px 1px 10px #202020;
+  text-transform: uppercase;
+}
+
+section .btn-old {
+  border: 2px solid #f3976c;
+  background-color: #f3976c;
+  color: #fff;
+}
+
+section .btn-old:hover {
+  background-color: white;
+  color: #f3976c;
+  -webkit-box-shadow: 2px 2px 20px #404040;
+          box-shadow: 2px 2px 20px #404040;
+}
+
+section .btn-new {
+  border: 2px solid #f3976c;
+  color: #f3976c;
+}
+
+section .btn-new:hover {
+  background-color: #f3976c;
+  color: white;
+  -webkit-box-shadow: 2px 2px 20px #404040;
+          box-shadow: 2px 2px 20px #404040;
+}
+/*# sourceMappingURL=style.css.map */

@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    /*width: 100%;*/
+    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -317,20 +317,15 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: 0;/* ici*/
+    margin-right: -16px;
     float: right;
     z-index: 1;
-    list-style-type: none;/* ici*/
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-}
-.nav > li > a {/* ici*/
-    padding: 10px 15px;
-    text-decoration: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -367,12 +362,11 @@ a:hover {
     z-index: 2;
 }
 
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 30%;/*50%*/
-        right: 50px;
+        top: 50%;
+        right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -453,7 +447,6 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
-    
 }
 
 .btn.pull-right {
@@ -658,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #333!important;
+    color: #575757!important;
 }
 
 .container {
@@ -666,8 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 40px;
-    color:  #F3976C!important;
+    font-size: 38px;
 }
 
 .hero-bloc-text-sub {
@@ -685,8 +677,7 @@ a {
 }
 
 p {
-    font-size: 16px;
-    margin-bottom: 1rem;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -781,7 +772,6 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
-
 }
 
 .tc-white {
@@ -791,17 +781,15 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
-    
-    
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
 .ltc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
@@ -810,7 +798,6 @@ h4 {
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
-
 }
 
 .ltc-atomic-tangerine:hover {
@@ -837,29 +824,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-form{
-
-    /*background-color: red;/*icccccccccci*/
-    
-}
-.form-group{
-   margin-bottom: 1rem; 
-}
-.form-control{
-    margin-top: 10px;
-    padding: 10px 5px;
-    width: 100%;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    font-size: 15px;
-    
-}
-.form-control:focus{
-    box-shadow:  0 0 5px #f3976c;
-    border-color: #F3976C;
-}
-
-
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1048,7 +1012,6 @@ form{
     }
     form {
         padding: 5px;
-        
     }
     .close-lightbox {
         display: inline-block;
