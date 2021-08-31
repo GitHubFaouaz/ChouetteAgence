@@ -762,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:#F3976C;
     padding: 40px 40px 40px 40px;
 }
 
@@ -785,7 +785,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #333!important;
 }
 
 .btn-atomic-tangerine {
@@ -801,7 +801,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #F3976C!important;
+    color: #333!important;
 }
 
 .ltc-white:hover {
@@ -855,6 +855,12 @@ form{
 .form-control:focus{
     box-shadow:  0 0 5px #f3976c;
     border-color: #F3976C;
+}
+.background {
+    background: #F3976C;
+}
+.color{
+    color: #F3976C !important;
 }
 
 
