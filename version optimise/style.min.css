@@ -791,6 +791,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    filter: contrast(1.5);
     
     
 }
