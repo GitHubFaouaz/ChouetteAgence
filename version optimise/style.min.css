@@ -484,6 +484,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+   color: black!important;
 }
 
 .icon-lg {
@@ -790,8 +791,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #282625;
+    color: #F3976C!important;
     filter: contrast(1.2);
     
     
@@ -860,6 +861,20 @@ h4 {
 .color{
     color: #F3976C !important;
     filter: contrast(1.2);
+}
+.police{
+    font-size: 17px;
+    filter: contrast(5);
+    color: black;
+    margin-top: 2rem;
+}
+.btn-color{
+    background: #F3976C;
+    color: black!important;
+    filter: contrast(1.2);
+}
+.color-black{
+    color:black!important;
 }
 
 
