@@ -15,6 +15,7 @@ section h1 {
 section .div-choice {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 50px 0;
 }
 section .btn-main {
@@ -48,5 +49,14 @@ section .btn-new {
   }
   100% {
     box-shadow: 1px 1px 10px #202020;
+  }
+}
+@media screen and (max-width: 500px) {
+  section .div-choice {
+    flex-direction: column !important;
+    padding: 0px 0;
+  }
+  section div {
+    margin: 2rem 0;
   }
 }/*# sourceMappingURL=style.css.map */
